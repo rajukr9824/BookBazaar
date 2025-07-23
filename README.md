@@ -13,7 +13,7 @@
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React, Redux, Axios, TailwindCSS
+- **Frontend**: React, Axios, TailwindCSS
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
 - **Authentication**: JWT-based auth
