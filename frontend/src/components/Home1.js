@@ -98,23 +98,23 @@ const Home1 = () => {
 
         <div className="genre-container">
           <div className="genre-box" onClick={() => navigate('/shop?genre=Fiction')}>
-            <img src="/image/fiction.jpg" alt="Fiction" />
+            <img src="%PUBLIC_URL%/image/fiction.jpg" alt="Fiction" />
             <div className="genre-label">Fiction</div>
           </div>
           <div className="genre-box" onClick={() => navigate('/shop?genre=Sci-Fi')}>
-            <img src="/image/scifi.jpg" alt="Sci-Fi" />
+            <img src="%PUBLIC_URL%/image/scifi.jpg" alt="Sci-Fi" />
             <div className="genre-label">Sci-Fi</div>
           </div>
           <div className="genre-box" onClick={() => navigate('/shop?genre=Romance')}>
-            <img src="/image/romance.jpg" alt="Romance" />
+            <img src="%PUBLIC_URL%/image/romance.jpg" alt="Romance" />
             <div className="genre-label">Romance</div>
           </div>
           <div className="genre-box" onClick={() => navigate('/shop?genre=Non-Fiction')}>
-            <img src="/image/nonfic.jpg" alt="Non-Fiction" />
+            <img src="%PUBLIC_URL%/image/nonfic.jpg" alt="Non-Fiction" />
             <div className="genre-label">Non-Fiction</div>
           </div>
           <div className="genre-box" onClick={() => navigate('/shop?genre=Horror')}>
-            <img src="/image/horror.jpg" alt="Horror" />
+            <img src="%PUBLIC_URL%/image/horror.jpg" alt="Horror" />
             <div className="genre-label">Horror</div>
           </div>
         </div>
