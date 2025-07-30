@@ -45,7 +45,7 @@ const Register = () => {
     }
 
     try {
-      const response = await axios.post('http://localhost:5000/api/auth/register', {
+      const response = await axios.post('https://bookbazaar-3ben.onrender.com/api/auth/register', {
         username,
         password,
         role,
